@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASP.NETCoreWebApplication1", "ASP.NETCoreWebApplication1\ASP.NETCoreWebApplication1.csproj", "{19067D4F-BF3E-4A07-95AC-6C2688C1FE16}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wumpe.App", "Wumpe.App\Wumpe.App.csproj", "{19067D4F-BF3E-4A07-95AC-6C2688C1FE16}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

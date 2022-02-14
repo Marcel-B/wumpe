@@ -1,4 +1,4 @@
-namespace ASP.NETCoreWebApplication1;
+namespace Wumpe.App;
 
 public class WeatherForecast
 {

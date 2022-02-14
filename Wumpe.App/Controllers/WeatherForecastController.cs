@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace ASP.NETCoreWebApplication1.Controllers;
+namespace Wumpe.App.Controllers;
 
 [ApiController]
 [Route("[controller]")]
