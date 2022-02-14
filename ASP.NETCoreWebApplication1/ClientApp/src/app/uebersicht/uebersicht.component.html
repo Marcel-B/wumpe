@@ -1,14 +1,18 @@
-<p>uebersicht works!</p>
-<table>
-    <thead>
-    <tr>
-        <th>Name</th>
-        <th>Foo</th>
-        <th>Bar</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr *ngFo   ></tr>
-    </tbody>
+<h2>Übersicht Ihrer Wumpe Daten</h2>
+<table style="width: 100%">
+  <thead>
+  <tr>
+    <th>Name</th>
+    <th>Betrag</th>
+    <th>Art</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr *ngFor="let buchung of buchungen">
+    <td>{{buchung.name}}</td>
+    <td>{{buchung.betrag}}</td>
+    <td>{{buchung.art}}</td>
+  </tr>
+  </tbody>
 
 </table>

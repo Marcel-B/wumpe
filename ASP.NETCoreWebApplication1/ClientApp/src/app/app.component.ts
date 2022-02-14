@@ -1,28 +1,28 @@
-import { Component } from '@angular/core';
-import { ActivatedRoute, Router,ParamMap } from '@angular/router';
-import {NgbDropdownConfig} from '@ng-bootstrap/ng-bootstrap';
+import { Component } from "@angular/core";
+import { ActivatedRoute, Router, ParamMap } from "@angular/router";
+import { NgbDropdownConfig } from "@ng-bootstrap/ng-bootstrap";
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  selector: "app-root",
+  templateUrl: "./app.component.html",
+  styleUrls: ["./app.component.css"]
 })
 export class AppComponent {
-  title = 'haushaltsbuch';
+  title = "haushaltsbuch";
   public name: string = "";
 
   public links = [
-    { title: 'Übersicht', fragment: 'uebersicht' },
-    { title: 'Neu', fragment: 'neu' }
+    { title: "Übersicht", fragment: "uebersicht" },
+    { title: "Neu", fragment: "neu" }
   ];
 
   constructor(public route: ActivatedRoute) {
   }
 
-  ngOnInit(){
+  ngOnInit() {
     this.route.queryParams.subscribe(params => {
-      this.name = params['name'];
-    })
+      this.name = params["name"];
+    });
   }
 }
 
