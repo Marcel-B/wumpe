@@ -1,0 +1,10 @@
+<p>neu works!</p>
+<div class="row">
+    <div class="col">
+        <div ngbDropdown class="d-inline-block">
+            <button class="btn btn-outline-primary" [value]="name"  #buchungsArt ngbDropdownToggle>{{name}}</button>
+            <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
+                <button *ngFor="let art of box" (click)="cha(art)" ngbDropdownItem  > {{art}}</button>
+            </div>
+        </div>
+    </div>
